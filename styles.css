@@ -96,7 +96,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .nav__inner {
   max-width: var(--wrap); margin: 0 auto; padding: 0 var(--gutter);
-  height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 24px;
+  height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 24px;
 }
 .brand { display: flex; align-items: baseline; gap: 10px; }
 .brand__name { font-weight: 800; font-style: italic; letter-spacing: 0.02em; font-size: 1.25rem; line-height: 1; }
@@ -369,3 +369,9 @@ ul { margin: 0; padding: 0; list-style: none; }
 .band__shade { position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(14, 14, 15, 0.94) 0%, rgba(14, 14, 15, 0.78) 55%, rgba(14, 14, 15, 0.55) 100%); }
 .band__inner { display: grid; gap: 32px; justify-items: start; }
 .band .h2 { max-width: 20ch; }
+
+/* Logo */
+.brand { align-items: center; }
+.brand__logo { height: 54px; width: auto; }
+.footer .brand__logo { height: 92px; }
+@media (max-width: 767px) { .brand__logo { height: 46px; } }

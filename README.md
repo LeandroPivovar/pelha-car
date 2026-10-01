@@ -16,7 +16,7 @@ Sem build: HTML, CSS e JS puros. Publique a pasta em GitHub Pages, Netlify, Verc
 ## Antes de publicar
 
 - **Depoimentos** são exemplos. Substitua por avaliações reais de clientes.
-- **Logo**: o site usa a marca em texto (PELHA amarelo + CAR branco). Se tiver o arquivo da logo, adicione em `assets/`.
+- **Logo**: `assets/logo-pelha-car.png` (versão recortada e reduzida do arquivo original `pelha-car-logo.png`).
 - **Dias de funcionamento**: o WhatsApp mostra 7h30 às 18h, sem os dias da semana. Confirme e ajuste.
 - Contato: WhatsApp `(48) 8433-0265` (`wa.me/554884330265`). Não atende ligações.
 - E-mail: oficinapelhacar@hotmail.com
